@@ -1,4 +1,4 @@
-# Assignment 1 - Name: Hemant Rathore | Roll No: 2410303204
+# LAB 1 - Name: Hemant Rathore | Roll No: 2410303204
 
 ## Task 1
 $ mkdir html-lab
