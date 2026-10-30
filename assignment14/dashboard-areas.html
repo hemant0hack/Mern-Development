@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <style>
+      .dashboard {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        grid-template-areas:
+          "header header"
+          "sidebar main"
+          "footer footer";
+        gap: 10px;
+        min-height: 90vh;
+      }
+      .dashboard > div {
+        border: 1px solid #333;
+        padding: 16px;
+        background: #e0e7ff;
+      }
+      .header {
+        grid-area: header;
+      }
+      .sidebar {
+        grid-area: sidebar;
+      }
+      .main {
+        grid-area: main;
+      }
+      .footer {
+        grid-area: footer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dashboard">
+      <div class="header">Header</div>
+      <div class="sidebar">Sidebar</div>
+      <div class="main">Main</div>
+      <div class="footer">Footer</div>
+    </div>
+  </body>
+</html>
